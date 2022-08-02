@@ -1,0 +1,5 @@
+1)For seeing Directory or folder in CMD
+ -> dir /a
+
+2)List of folder or file in git
+ -> git ls-files
