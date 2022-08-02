@@ -3,3 +3,9 @@
 
 2)List of folder or file in git
  -> git ls-files
+
+3)git remote in CMD
+ -> it will show branch of remote
+
+4)git remote -v
+ -> what origin ,data is fetching or pushing
