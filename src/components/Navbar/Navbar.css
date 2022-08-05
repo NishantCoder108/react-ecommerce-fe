@@ -1,0 +1,32 @@
+.header {
+  background-color: aliceblue;
+  /* width: 100%; */
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 13px;
+  color: rgb(90, 119, 129);
+}
+.logo h3 {
+  font-size: 1.3rem;
+}
+
+.header-items {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.guest {
+  background-color: rgb(90, 119, 129);
+  color: white;
+  border-radius: 5px;
+  padding: 0px 36px;
+  font-size: 1rem;
+  height: 35px;
+  align-items: center;
+  display: flex;
+}

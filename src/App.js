@@ -1,23 +1,18 @@
 import "./App.css";
+import Navbar from "./components/Navbar/Navbar";
+import LandingPage from "./pages/LandingPages/LandingPage";
 
 function App() {
-  return (
-    <div
-      style={{
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        backgroundColor: "lightBlue",
-        height: "100vh",
-      }}
-    >
-      <h1>
-        {" "}
-        Hi, <br />
-        This is Nishant Here Right.
-      </h1>
-    </div>
-  );
+  const renderComponent = () => {
+    return (
+      <>
+        <Navbar />
+        <LandingPage />
+      </>
+    );
+  };
+
+  return renderComponent();
 }
 
 export default App;
