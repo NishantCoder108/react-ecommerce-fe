@@ -1,0 +1,44 @@
+.container {
+  display: "flex";
+  text-align:'center';
+  color: rgb(90, 119, 129);
+  justify-content: center;
+  padding: 20px 9px;
+  margin:0px 60px;
+ 
+}
+.container h5{
+    text-align: center;
+    padding: 30px;
+    font-size: 1.5rem;
+}
+
+.allitems{
+    display: flex;
+    /* width: 90vw; */
+    justify-content:space-between;
+    text-align: center;
+    flex-wrap: wrap;
+    /* padding: 30px; */
+    align-items: center;
+    /* flex-basis: 1; */
+    align-content: flex-start;
+    gap: 8px;
+}
+img{
+    width: 153px;
+    height: 200px;
+    padding: 10px;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid grey; */
+    /* padding: 25px 10px; */
+    background-color: rgb(90, 119, 129);
+    color: white;
+    border-radius: 3px;
+    align-items: center;
+    align-content: flex-start;
+    padding: 0px 0px 6px 0px;
+}
