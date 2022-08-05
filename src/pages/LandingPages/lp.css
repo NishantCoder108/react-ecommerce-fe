@@ -23,7 +23,7 @@
     align-items: center;
     /* flex-basis: 1; */
     align-content: flex-start;
-    gap: 9px;
+    gap: 8px;
 }
 img{
     width: 153px;
